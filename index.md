@@ -8,11 +8,11 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "32.231035, -110.949291"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Nov 15-16, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "9:00 am - 4:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 5:0 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-11-15      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-11-16        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Jeffrey Oliver"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+# helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 contact: ["jcoliver@email.arizona.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 etherpad: https://pad.carpentries.org/2018-11-15-ttt-cyverse            # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -222,7 +222,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </p>
 
 
+<!--
 <h2 id="materials" name="materials">Training Materials and Schedule</h2>
+-->
+<h2 id="materials" name="materials">Schedule</h2>
 
 <!--
 <p>
